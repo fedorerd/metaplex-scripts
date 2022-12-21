@@ -1,0 +1,24 @@
+{
+  "name": "metaplex-scripts",
+  "version": "1.0.0",
+  "description": "Metaplex based scripts for working with Solana NFTs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.17.12",
+    "@solana/web3.js": "^1.70.3",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4"
+  }
+}
