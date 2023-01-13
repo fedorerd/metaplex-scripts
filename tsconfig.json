@@ -7,10 +7,9 @@
       "resolveJsonModule": true,
       "sourceMap": true,
       "skipLibCheck": true,
+      "rootDir": "src",
       "outDir": "dist"
     },
     "lib": ["es2015"],
-    "include": [
-      "index.ts"
-    ]
+    "files": ["src/index.ts"]
   }
