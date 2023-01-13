@@ -1,6 +1,5 @@
 import { CreatorInput } from '@metaplex-foundation/js';
 import { PublicKey, Transaction } from '@solana/web3.js';
-import { Signer } from 'crypto';
 import { Client } from '../core';
 
 export async function updateNft(client: Client, mints: PublicKey[], args: {
